@@ -2,7 +2,7 @@
 
 Cookies and Tears is an autoclicker script for [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/). It was made for a YouTube video, but it does work quite well. The YouTube video can be found below:
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![Beating THE SPIFFING BRIT at Cookie Clicker!](https://img.youtube.com/vi/6IAU7sllzq0/0.jpg)](https://www.youtube.com/watch?v=6IAU7sllzq0)
 
 ## What It Does
 
