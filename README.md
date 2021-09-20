@@ -62,4 +62,4 @@ More details can be found in the [Cheating section of the Wiki](https://cookiecl
 
 1. [Cookies and Tears GitHub Repository](https://github.com/HighTechLowIQ/CookiesAndTears)
 2. [Beating THE SPIFFING BRIT at Cookie Clicker! - YouTube video](https://www.youtube.com/watch?v=6IAU7sllzq0)
-3. [Best Autoclicker Scripts in Cookie Clicker](https://www.youtube.com/watch?v=9uGJdc3GILo)
+3. [Best Autoclicker Scripts in Cookie Clicker - YouTube video](https://www.youtube.com/watch?v=9uGJdc3GILo)
