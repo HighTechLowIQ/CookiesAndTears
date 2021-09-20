@@ -1,6 +1,6 @@
 # Cookies and Tears
 
-Cookies and Tears is an autoclicker script for [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/). It was made for a YouTube video, but it does work quite well. The YouTube video can be found below:
+Cookies and Tears is an autoclicker script for [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/). It was made for a YouTube video, but is also fully functional. The YouTube video can be found below:
 
 [![Beating THE SPIFFING BRIT at Cookie Clicker!](https://img.youtube.com/vi/6IAU7sllzq0/0.jpg)](https://www.youtube.com/watch?v=6IAU7sllzq0)
 
@@ -16,7 +16,7 @@ Clicking this link will enable the script. This will do the following:
 * Look at buying an upgrade or building every 100ms.
 * Click any golden cookies every 500ms.
 
-The script will also add an additional "Speedrun Time" field next to the "Enable Cheats" button when you have baked 1 million total cookies. The script will hit 1 million cookies around 5 minutes and 40 seconds.
+There is an additional [CookieTimers.js](CookieTimers.js) script which adds two speedrun time fields next to the "Enable Cheats" button. These track the amount of time it takes to hit one million and ten million cookies. The script will hit 1 million cookies around 5 minutes and 40 seconds.
 
 > _NOTE: Speedruns that use an autoclicker cannot be submitted to the leaderboards - the speedrun time was simply to know how fast the script was._ 
 
@@ -40,14 +40,26 @@ This means that the script will:
 
 ## Usage
 
-There are two files available - CookiesAndTears.js and GreaseTamperMonkey.js. The functionality of each file is the same, but how they are used differs.
+There are three files available - CookiesAndTears.js, GreaseTamperMonkey.js and CookieTimers.js. The functionality of the first two files is the same, but how they are used differs. The third file adds timers to the page.
 
-### CookiesAndTears.js
+### [CookiesAndTears.js](CookiesAndTears.js)
 
 This is used by pasting it into your browser's console. You can open the developer console with F12 in Chrome and Firefox. Simply paste the contents of CookiesAndTears.js into your browser's developer console and hit enter.
 
 More details can be found in the [Cheating section of the Wiki](https://cookieclicker.fandom.com/wiki/Cheating).
 
-### GreaseTamperMonkey.js
+### [GreaseTamperMonkey.js](GreaseTamperMonkey.js)
 
 Simply create a new script with either [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or Tampermonkey ([Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)), and paste the contents of GreaseTamperMonkey.js into the script. Save it and refresh the Cookie Clicker page.
+
+### [CookieTimers.js](CookieTimers.js)
+
+This is used by pasting it into your browser's console. You can open the developer console with F12 in Chrome and Firefox. Simply paste the contents of CookiesAndTears.js into your browser's developer console and hit enter.
+
+More details can be found in the [Cheating section of the Wiki](https://cookieclicker.fandom.com/wiki/Cheating).
+
+## Links
+
+1. [Cookies and Tears GitHub Repository](https://github.com/HighTechLowIQ/CookiesAndTears)
+2. [Beating THE SPIFFING BRIT at Cookie Clicker! - YouTube video](https://www.youtube.com/watch?v=6IAU7sllzq0)
+3. [Best Autoclicker Scripts in Cookie Clicker](https://www.youtube.com/watch?v=9uGJdc3GILo)

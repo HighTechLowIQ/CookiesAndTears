@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     Cookies and Tears
-// @version  0.0.1
+// @version  0.0.2
 // @author HighTechLowIQ
 // @description Beats The Spiffing Brit at Cookie Clicker
 // @grant    none
@@ -56,21 +56,6 @@ function getToggleCheatsText() {
 
 function clickCookie() {
   Game.ClickCookie();
-  if (!speedrunDone && Game.cookiesEarned >= 1000000) {
-    speedrunDone = true;
-    var speedrunTime = new Date() - Game.startDate;
-    var minutes = Math.floor(speedrunTime / 60000);
-    var seconds = ((speedrunTime % 60000) / 1000).toFixed(0);
-    var timeString = seconds == 60 ? (minutes + 1) + ":00" : minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
-    console.log("Speedrun finished! Final time: " + timeString);
-    
-    const topBar = document.querySelector('#topBar');
-    let timeDiv = document.createElement('div');
-    timeDiv.id = "speedrunTime";
-    timeDiv.style.color = "yellow";
-    timeDiv.textContent = "Final Time: " + timeString;
-    topBar.appendChild(timeDiv);
-  }
 }
 
 function buyUpgrades() {  
@@ -119,16 +104,6 @@ function clickGoldenCookie() {
 }
   
 function startTimers() {
-  // Reset the speedrun variable and remove the timer
-  if (Game.cookiesEarned == 0) {
-    speedrunDone = false;
-    const speedrunTime = document.querySelector('#speedrunTime');
-    if (speedrunTime) {
-      speedrunTime.remove(); 
-    }
-    
-  }
-  
   // Click the cookie every 4ms
   clickTimer = setInterval(function() {
     clickCookie();
@@ -188,7 +163,7 @@ function runScript() {
   console.log("Running!");
   
   addButton();
-  variables = injectFunction("var clickTimer; var upgradeTimer; var goldenCookieTimer; var speedrunDone = false;", false);
+  variables = injectFunction("var clickTimer; var upgradeTimer; var goldenCookieTimer;", false);
   cookieFunction = injectFunction(clickCookie, false);
   goldenCookieFunction = injectFunction(clickGoldenCookie, false);
   upgradeFunction = injectFunction(buyUpgrades, false);
